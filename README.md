@@ -1,5 +1,6 @@
 # AdaptCoder: Adaptive Code Generation and Efficient Debugging Agents with LLMs
-AdaptCoder is a dynamic debugging framework designed to enhance code generation in large language models through adaptive iteration and targeted test generation. By segmenting code into smaller blocks and using runtime feedback, it generates edge cases from failed tests, guiding precise debugging steps and refining implementations based on observed patterns. This adaptive method improves debugging accuracy and leads to more reliable code generation.
+AdaptCoder is a project-in-progress aimed at advancing code generation in large language models. This framework seeks to improve reliability through adaptive iteration and targeted test generation, breaking down code into smaller segments and generating edge cases from failed tests using runtime feedback. These adaptive agents work to enable precise debugging and incremental refinement, with the ultimate goal of enhancing both the reliability and accuracy of generated code.
+
 
 
 
@@ -12,7 +13,3 @@ AdaptCoder is a dynamic debugging framework designed to enhance code generation 
 
 We extend our thanks to the authors of these projects for their high-quality, open-source contributions, which were invaluable in our development.
 
-
-
-#### Work in Progress 🚧
-This project is currently under active development. New features, enhancements, and fixes are being added frequently, but it may still contain incomplete functionality or areas under construction.
