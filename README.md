@@ -1,2 +1,2 @@
 # AdaptCoder
-AdaptCoder: Adaptive Code Generation and Token-Efficient Debugging Agents with LLMs
+AdaptCoder: Adaptive Code Generation and Efficient Debugging Agents with LLMs
