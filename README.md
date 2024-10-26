@@ -3,9 +3,6 @@ AdaptCoder is a dynamic debugging framework designed to enhance code generation 
 
 
 
-## Work in Progress 🚧
-This project is currently under active development. New features, enhancements, and fixes are being added frequently, but it may still contain incomplete functionality or areas under construction.
-
 
 ## Acknowledgments
 
@@ -15,3 +12,7 @@ This project is currently under active development. New features, enhancements, 
 
 We extend our thanks to the authors of these projects for their high-quality, open-source contributions, which were invaluable in our development.
 
+
+
+**Work in Progress 🚧** 
+This project is currently under active development. New features, enhancements, and fixes are being added frequently, but it may still contain incomplete functionality or areas under construction.
