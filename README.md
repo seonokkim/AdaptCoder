@@ -14,6 +14,8 @@ AdaptCoder is a project-in-progress aimed at advancing code generation in large 
 
 We extend our thanks to the authors of these projects for their high-quality, open-source contributions, which were invaluable in our development.
 
-### Work in Progress 🚧
+
+
+## Work in Progress 🚧
 
 This repository is currently under active development, with regular updates expected.
