@@ -128,7 +128,8 @@ def get_code_body(response):
         return response
 
 class PyGenerator:
-    def ldb_debug(self, prompt: str, prev_func_impl: str, failed_test: str, entry: str, model: ModelBase, messages: List[Message], dataset_type: str = "", level: str = "block") -> str:
+    def adaptcoder_debug(self, prompt: str, prev_func_impl: str, failed_test: str, entry: str, model: ModelBase, messages: List[Message], dataset_type: str = "", level: str = "block") -> str:
+        # The debug function logic for AdaptCoder
         prev_func_impl = trim_header(prev_func_impl)
         failed_test_string = failed_test.split("# Real Execution Output:")[0]
         real_test_output = failed_test.split("# Real Execution Output:")[1]
@@ -315,7 +316,7 @@ class PyGenerator:
             print(delta_msg)
         return messages
 
-    def ldb_generate(
+    def adaptcoder_generate(
         self,
         func_sig: str,
         model: ModelBase,
@@ -326,6 +327,7 @@ class PyGenerator:
         temperature: float = 0.0,
         dataset_type: str = "",
     ) -> Union[str, List[str]]:
+        # The generate function logic for AdaptCoder
         prev_func_impl = trim_header(prev_func_impl)
         if model.is_chat:
             if dataset_type in ["TransCoder"]:
