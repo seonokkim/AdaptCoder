@@ -122,3 +122,10 @@ We are grateful for the contributions of the following open-source projects, whi
 - **[LLMDebugger](https://github.com/FloridSleeves/LLMDebugger)**: Core framework and inspiration for our debugging approach.
 - **[Reflexion](https://github.com/noahshinn024/reflexion)**: Adapted code for iterative refinement techniques.
 - **[staticfg](https://github.com/coetaur0/staticfg)**: Utilized static flow graph generation methods.
+
+---
+
+## Work in Progress 🚧
+
+This repository is under active development, with regular updates expected. Stay tuned for new features and improvements!
+
