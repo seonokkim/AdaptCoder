@@ -86,27 +86,17 @@ def generate_new_tests(failed_test, model, prompt, entry_point):
     return new_tests
 ```
 
-### 5. Adaptive Debugging Prompt Generation
+### 5. Adaptive Debugging Prompt Generation and Iterations
 - Prompts are dynamically adjusted based on observed failures and the current implementation.
-- The debugging prompt incorporates the current implementation and specific failed tests.
-- This ensures the model focuses on resolving specific issues instead of generating generic solutions.
-
-```python
-messages = gen.adaptcoder_debug(
-    item["prompt"], debug_cur_func_impl, selected_test, item["entry_point"], model, "", dataset_type, level
-)
-```
-
-### 6. Debugging Iterations and Selective Sampling
 - If execution traces become too lengthy, AdaptCoder selectively samples key blocks to ensure token efficiency and focus on high-priority areas.
-- This ensures efficient use of LLM tokens.
-- This focuses debugging efforts on critical sections of the code.
+- The debugging prompt incorporates the current implementation and specific failed tests, ensuring the model focuses on resolving specific issues instead of generating generic solutions.
+- This approach ensures efficient use of LLM tokens while focusing debugging efforts on critical sections of the code.
+
 ```python
 messages = gen.adaptcoder_debug(
     item["prompt"], debug_cur_func_impl, selected_test, item["entry_point"], model, "", dataset_type, level
 )
 ```
-
 
 ---
 
