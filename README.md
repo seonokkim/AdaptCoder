@@ -104,14 +104,6 @@ messages = gen.adaptcoder_debug(
 )
 ```
 
-## Summary of Adaptive Mechanisms
-
-- **Iterative Refinement**: Dynamically refining code based on failed test cases.
-- **Edge Case Generation**: Generating new test cases to address specific failure modes.
-- **Dynamic Prompting**: Adjusting LLM prompts to reflect the current debugging state.
-- **Selective Focus**: Sampling and targeting critical code sections to optimize debugging.
-
-These mechanisms collectively enhance the scalability, precision, and effectiveness of the debugging process.
 
 ---
 
