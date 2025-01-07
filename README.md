@@ -1,6 +1,6 @@
 # AdaptCoder: Adaptive Code Generation and Efficient Debugging Agents with LLM
 
-![Project Overview](https://github.com/seonokkim/PIU-Classifier/blob/main/presentation/project_overview.png)
+![AdaptCoder Diagram](https://github.com/seonokkim/AdaptCoder/blob/main/figure/AdaptCoder.jpg)
 
 
 **AdaptCoder** is a project-in-progress aimed at advancing code generation in large language models. This framework seeks to improve reliability through adaptive iteration and targeted test generation, breaking down code into smaller segments and generating edge cases from failed tests using runtime feedback. These adaptive agents work to enable precise debugging and incremental refinement, with the ultimate goal of enhancing both the reliability and accuracy of generated code.
